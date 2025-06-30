@@ -2,7 +2,9 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div>Project</div>
+    <div className="wrapper md:py-10 md:px-10 my-10">
+
+    </div>
   )
 }
 
