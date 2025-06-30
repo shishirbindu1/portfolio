@@ -1,11 +1,15 @@
 import React from 'react'
 import Home from '../Home/Home'
+import Project from '../Project/Project'
 
 const Portfolio = () => {
   return (
-    <>
-    <Home/>
-    </>
+    
+    <div className="wrap">
+      <Home/>
+      <Project/>
+    </div>
+    
   )
 }
 
