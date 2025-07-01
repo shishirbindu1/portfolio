@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="wrapper">
       <div className="navigation grid grid-flow-col mx-5 pt-10">
-        <div className="">
+        <div>
           <ul
             className={`${
               openMenu ? "sm:grid" : "hidden"
@@ -25,10 +25,7 @@ function Header() {
           </ul>
         </div>
         <div className="menuIcons grid justify-items-end md:hidden">
-          <div
-            className="bars sm:hidden"
-            onClick={() => setOpenMenu(!openMenu)}
-          >
+          <div className="bars sm:hidden" onClick={() => setOpenMenu(!openMenu)}>
             {openMenu ? <FaTimes /> : <FaBars />}
           </div>
         </div>
