@@ -12,7 +12,9 @@ const Project = () => {
           <div className="image grid place-items-center">
             <img src={project.image} alt="project preview" className="rounded-lg" />
           </div>
-
+          <div className="title text-2xl w-full text-black">
+            <h2>{project.title}</h2>
+          </div>
           <div className="technology grid grid-flow-col gap-x-3 overflow-auto">
             {project.technologies.map((tech, index) => (
               <button
