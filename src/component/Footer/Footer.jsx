@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaGithub,FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -10,9 +9,7 @@ const Footer = () => {
            .All Right Reserved
         </span>
       </div>
-      <div className="two grid place-items-center">
-        <div className='icon grid grid-flow-col text-3xl gap-x-5 justify-items-center w-full sm:w-2/3 lg:w-1/2'><FaGithub/> <FaLinkedin/> <FaFacebook/> <FaInstagram/></div>
-      </div>
+      
     </div>
   )
 }

@@ -3,7 +3,7 @@ import removedBgimg from "../../assets/images/removedBgimg.png";
 
 const Home = () => {
   return (
-    <div className="wrapper md:grid grid-cols-2 md:py-10 md:px-10 my-10">
+    <div className="wrapper md:grid grid-cols-2 md:py-10 md:px-10 my-10 ">
       <div className="image w-3/4  grid justify-self-center md:w-full md:place-self-center lg:justify-items-end">
         <img src={removedBgimg} alt="" />
       </div>
